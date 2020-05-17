@@ -1,0 +1,74 @@
+table {
+width : 400px;
+}
+th {
+text-align : left;
+}
+table, th, td {
+border : #000 solid 1px;
+border-collapse : collapse;
+background-color : #009879;
+color : #ffffff;
+}
+h1 {
+font-family : Arial, "Times New Roman";
+font-size : 22px;
+font-style : italic;
+font-weight : 100;
+text-align : center;
+text-indent : 30px;
+text-transform : capitalize;
+color : #fff;
+}
+h2 {
+text-align : center;
+background-color : grey;
+color : white;
+}
+table {
+text-align : center;
+display : inline-block;
+}
+img {
+border : #000 solid 5px;
+border-radius : 20px;
+margin : 10px;
+height : 800px;
+margin : 10px auto;
+display : block;
+}
+header, footer, th {
+color : white;
+}
+header, footer {
+background-color : white;
+color : black;
+text-align : center;
+height : 80px;
+font-size : 50px;
+}
+hr {
+color : #138078;
+outline-style : dashed;
+}
+th {
+background-color : #999100;
+}
+.side {
+background-color : #F2F2F2;
+}
+body {
+background : linear-gradient(132deg, #ec5218, #1665c1);
+background-size : 400% 400%;
+}
+@keyframes BackgroundGradient {
+0% {
+background-position : 0% 50%;
+}
+50% {
+background-position : 100% 50%;
+}
+100% {
+background-position : 0% 50%;
+}
+}
